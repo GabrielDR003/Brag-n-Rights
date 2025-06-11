@@ -6,7 +6,7 @@ namespace GymBro_App.Services
     {
         private readonly IServiceProvider _serviceProvider;
         private readonly ILogger<StepCompetitionsBackgroundService> _logger;
-        private static readonly TimeSpan Interval = TimeSpan.FromMinutes(30);
+        private static readonly TimeSpan Interval = TimeSpan.FromMinutes(1);
 
         public StepCompetitionsBackgroundService(IServiceProvider serviceProvider, ILogger<StepCompetitionsBackgroundService> logger)
         {
